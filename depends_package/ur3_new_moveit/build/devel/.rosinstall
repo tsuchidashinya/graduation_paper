@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tsuchida/ros_package/ur_ws/src/ur3_new_moveit/build/devel/setup.sh
