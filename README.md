@@ -1,6 +1,6 @@
-## 土田真哉の卒業研究
+# 卒業研究
 
-### 依存パッケージのインストール
+## 依存パッケージのインストール
 ##### ROSのインストール
 Ubuntu20.04のときにはros <a href="http://wiki.ros.org/noetic/Installation/Ubuntu">noetic</a>
 
@@ -41,4 +41,19 @@ cd ~/ros_ws/
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 catkin build
+```
+
+## プログラムの実行
+### シミュレーターの環境セットアップ
+```
+roslaunch visual_servo_tsuchida setup_simulator.launch
+```
+```
+roslaunch visual_servo_tsuchida moveit.launch sim:=true
+```
+```
+roslaunch visual_servo_tsuchida arm_jog.launch
+```
+### 実機のロボット環境のセットアップ
+```
 ```
