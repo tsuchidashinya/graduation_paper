@@ -52,7 +52,7 @@ roslaunch visual_servo_tsuchida setup_simulator.launch
 roslaunch visual_servo_tsuchida moveit.launch sim:=true
 ```
 ```
-roslaunch visual_servo_tsuchida arm_jog.launch
+roslaunch visual_servo_tsuchida arm_jog.launch sim:=true
 ```
 ### 実機のロボット環境のセットアップ
 ```
