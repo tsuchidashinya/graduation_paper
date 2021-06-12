@@ -57,3 +57,22 @@ roslaunch visual_servo_tsuchida arm_jog.launch sim:=true
 ### 実機のロボット環境のセットアップ
 ```
 ```
+### ビジュアルサーボの実行
+```
+roslaunch visual_servo_tsuchida server_visual_servo.launch
+```
+```
+roslaunch visual_servo_tsuchida client_visual_servo.launch
+```
+次の画面が表示される
+```
+1: visual servo //ビジュアルサーボを実行する
+2: move   //ロボットアームをxyz方向に少しずつ動かす
+3: preempted　　//ビジュアルを途中で中止する
+4: capture     //ビジュアルサーボの教師画像を保存する
+5: register home position　　//ホームポジションを新たに登録する
+6: return home position　  //ホームポジションに戻る
+q: quit　　 //プログラムを終了する
+```
+
+
