@@ -1,6 +1,6 @@
-## 土田真哉の卒業研究
+# 卒業研究
 
-### 依存パッケージのインストール
+## 依存パッケージのインストール
 ##### ROSのインストール
 Ubuntu20.04のときにはros <a href="http://wiki.ros.org/noetic/Installation/Ubuntu">noetic</a>
 
@@ -42,3 +42,37 @@ rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 catkin build
 ```
+
+## プログラムの実行
+### シミュレーターの環境セットアップ
+```
+roslaunch visual_servo_tsuchida setup_simulator.launch
+```
+```
+roslaunch visual_servo_tsuchida moveit.launch sim:=true
+```
+```
+roslaunch visual_servo_tsuchida arm_jog.launch sim:=true
+```
+### 実機のロボット環境のセットアップ
+```
+```
+### ビジュアルサーボの実行
+```
+roslaunch visual_servo_tsuchida server_visual_servo.launch
+```
+```
+roslaunch visual_servo_tsuchida client_visual_servo.launch
+```
+次の画面が表示される
+```
+1: visual servo //ビジュアルサーボを実行する
+2: move   //ロボットアームをxyz方向に少しずつ動かす
+3: preempted　　//ビジュアルを途中で中止する
+4: capture     //ビジュアルサーボの教師画像を保存する
+5: register home position　　//ホームポジションを新たに登録する
+6: return home position　  //ホームポジションに戻る
+q: quit　　 //プログラムを終了する
+```
+
+
