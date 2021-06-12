@@ -37,7 +37,7 @@
 #include <moveit_msgs/AttachedCollisionObject.h>
 #include <moveit_msgs/CollisionObject.h>
 #include <moveit/moveit_cpp/moveit_cpp.h>
-#include <opencv/cv.h>
+#include <opencv2/opencv.hpp>
 #include <cv_bridge/cv_bridge.h>
 #include <sstream>
 
@@ -100,6 +100,8 @@ public:
     vpCameraParameters cam_visp;
     PorPd p, pd;
     Homo mask_cdMo_detect, cMo_detect;
+
+    
     void klt_initialize();
     void set_feature_quantity(int);
     april_message april_interface;
