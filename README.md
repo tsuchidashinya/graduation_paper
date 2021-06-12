@@ -2,9 +2,9 @@
 
 ### 依存パッケージのインストール
 ##### ROSのインストール
-Ubuntu20.04のときにはros<a href="http://wiki.ros.org/noetic/Installation/Ubuntu">noetic</a>
+Ubuntu20.04のときにはros <a href="http://wiki.ros.org/noetic/Installation/Ubuntu">noetic</a>
 
-Ubuntu18.04のときにはros<a href="http://wiki.ros.org/melodic/Installation/Ubuntu">melodic</a>
+Ubuntu18.04のときにはros <a href="http://wiki.ros.org/melodic/Installation/Ubuntu">melodic</a>
 ##### vispのインストール
 ```
 cd depends_package/visp/
