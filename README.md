@@ -41,6 +41,9 @@ cd ~/ros_ws/
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 catkin build
+echo "source ~/ros_ws/devel/setup.bash" >> ~/.bashrc
+echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/ros_ws/src/graduation_paper/visual_servo_tsuchida/models" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ## プログラムの実行
