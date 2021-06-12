@@ -60,17 +60,17 @@ void study_0::vector_show(std::vector<double> show_vector)
 pose_message study_0::max_Homo_error(Homo cdMoyer, Homo cMoyer)
 {
     pose_message error_all;
-    pro_show("error calcurate start");
+    //pro_show("error calcurate start");
     std::vector<double> cdcd = pose_to_vector(visp_bridge::toGeometryMsgsPose(cdMoyer));
     std::vector<double> cmcm = pose_to_vector(visp_bridge::toGeometryMsgsPose(cMoyer));
-    pro_show("Substition is finish");
+    //pro_show("Substition is finish");
     if (cdcd.size() != cmcm.size() || cdcd.size() != 6) {
         ROS_ERROR_STREAM("Size is diferrent");
         error_all.anglar_error = 1;
         error_all.linear_error = 1;
         return error_all;
     }
-    pro_show("Size is ok");
+    //pro_show("Size is ok");
     double linear_max = std::abs(cdcd[0] - cmcm[0]);
     double tem;
     for (int i = 1; i < 3; i++) {

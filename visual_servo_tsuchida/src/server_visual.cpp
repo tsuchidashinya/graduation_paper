@@ -12,7 +12,7 @@ void Servo_actionserver::exec_action_callback(const visual_servo_tsuchida::Servo
 {
     if (msg->option == 1)
     {
-        std::cout << "fdafd" << std::endl;
+        //std::cout << "fdafd" << std::endl;
         error = msg->goal_error;
         Threshould_error.linear_error = msg->goal_linear_error;
         Threshould_error.anglar_error = msg->goal_angular_error;

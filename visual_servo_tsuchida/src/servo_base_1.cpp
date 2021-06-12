@@ -57,11 +57,11 @@ april_message study_0::init_image(Image &Imotmot, Image &Idispdisp, std::string 
     if (out.detect_or_not)
     {
         cdMo = out.cM;
-        pro_show("init image clear");
+        //pro_show("init image clear");
         ikeru = true;
     }
     else {
-        pro_show("init image false");
+        //pro_show("init image false");
         ikeru = false;
     }
     return out;
@@ -173,12 +173,12 @@ april_message study_0::april_detect(Image& im)
     if (output.detect_or_not)
     {
         output.cM = kensa[size - 1];
-        std::cout << "detect success" << std::endl;
+        //std::cout << "detect success" << std::endl;
     }
     else {
         Homo cfd(0, 0, 0.56, 0, 0, 0);
         output.cM = cfd;
-        std::cout << "detect fail" << std::endl;
+        //std::cout << "detect fail" << std::endl;
     }
     return output;
 }
@@ -214,9 +214,9 @@ void study_0::setworld(VPoint &pon)
     ponpon.setWorldCoordinates(-tag_size/2, tag_size/2, 0);
     pon.push_back(ponpon);
     //pro_show("point[0]");
-    show_various(pon[0].getWorldCoordinates());
+    //show_various(pon[0].getWorldCoordinates());
     //pro_show("point[1]");
-    show_various(pon[1]);
+    //show_various(pon[1]);
 }
 
 void study_0::pro_show(std::string str)
