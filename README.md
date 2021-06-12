@@ -59,6 +59,16 @@ roslaunch visual_servo_tsuchida arm_jog.launch sim:=true
 ```
 ### 実機のロボット環境のセットアップ
 ```
+roslaunch ur_robot_driver ur3_bringup.launch robot_ip:=192.168.11.12
+```
+```
+roslaunch visual_servo_tsuchida uvc_cam.launch
+```
+```
+roslaunch visual_servo_tsuchida moveit.launch sim:=false
+```
+```
+roslaunch visual_servo_tsuchida arm_jog.launch sim:=false
 ```
 ### ビジュアルサーボの実行
 ```
