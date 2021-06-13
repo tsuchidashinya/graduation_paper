@@ -1,0 +1,59 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ericlab/ros_package/visual_ws/devel/include/**",
+        "/home/ericlab/ros_package/baxter_ws/devel/include/**",
+        "/home/ericlab/ros_package/denso_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/rikuken_original/annotation_package/include/**",
+        "/home/ericlab/ros_package/baxter_ws/src/baxter_simulator/baxter_sim_controllers/include/**",
+        "/home/ericlab/ros_package/baxter_ws/src/baxter_simulator/baxter_sim_hardware/include/**",
+        "/home/ericlab/ros_package/baxter_ws/src/baxter_simulator/baxter_sim_io/include/**",
+        "/home/ericlab/ros_package/baxter_ws/src/baxter_simulator/baxter_sim_kinematics/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_2020/bayes_pose/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_robot/bcap_core/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_robot/bcap_service/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/rikuken_original/cloud_practice/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_recognition/cnn_pose_estimator/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_recognition/colored_pointcloud/include/**",
+        "/home/ericlab/ros_package/visual_ws/src/visual_servo_package/depends_package/Universal_Robots_ROS_Driver/controller_stopper/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_robot/denso_control/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_simulator/denso_gazebo/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_simulator/denso_gazebo_control/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_simulator/denso_gazebo_grasp/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_robot/denso_robot_core/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_state_machine/denso_state_behavior/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/pose_estimator_pkg/estimator/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/pose_estimator_pkg/gen_dataset/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_recognition/image_processing_pkg/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_path_planning/jacobi_planning/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_recognition/meshcloud_publisher/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_2020/meshcloud_pblisher_pkg/include/**",
+        "/home/ericlab/ros_package/visual_ws/src/visual_servo_package/depends_package/moveit_jog_arm/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/oneshot_calibration_system/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/perception_pcl/pcl_conversions/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/perception_pcl/pcl_ros/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_recognition/pointcloud_processing/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_recognition/pointcloud_registrator/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/rikuken_original/pointcloud_usage/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/pose_estimator_pkg/pose_estimator_measure/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/denso_pkgs/denso_recognition/target_extractor/include/**",
+        "/home/ericlab/ros_package/denso_ws/src/denso_run/rikuken_original/tf_publish/include/**",
+        "/home/ericlab/ros_package/visual_ws/src/visual_servo_package/depends_package/Universal_Robots_ROS_Driver/ur_calibration/include/**",
+        "/home/ericlab/ros_package/visual_ws/src/visual_servo_package/depends_package/Universal_Robots_ROS_Driver/ur_controllers/include/**",
+        "/home/ericlab/ros_package/visual_ws/src/visual_servo_package/depends_package/fmauch_universal_robot/ur_kinematics/include/**",
+        "/home/ericlab/ros_package/visual_ws/src/visual_servo_package/depends_package/Universal_Robots_ROS_Driver/ur_robot_driver/include/**",
+        "/home/ericlab/ros_package/visual_ws/src/visual_servo_package/depends_package/vision_visp/visp_bridge/include/**",
+        "/home/ericlab/ros_package/visual_ws/src/visual_servo_package/visual_servo_tsuchida/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
