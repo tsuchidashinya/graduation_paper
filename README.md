@@ -41,6 +41,9 @@ cd ~/ros_ws/
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 catkin build
+echo "source ~/ros_ws/devel/setup.bash" >> ~/.bashrc
+echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/ros_ws/src/graduation_paper/visual_servo_tsuchida/models" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ## プログラムの実行
@@ -56,6 +59,16 @@ roslaunch visual_servo_tsuchida arm_jog.launch sim:=true
 ```
 ### 実機のロボット環境のセットアップ
 ```
+roslaunch ur_robot_driver ur3_bringup.launch robot_ip:=192.168.11.12
+```
+```
+roslaunch visual_servo_tsuchida uvc_cam.launch
+```
+```
+roslaunch visual_servo_tsuchida moveit.launch sim:=false
+```
+```
+roslaunch visual_servo_tsuchida arm_jog.launch sim:=false
 ```
 ### ビジュアルサーボの実行
 ```
@@ -68,7 +81,7 @@ roslaunch visual_servo_tsuchida client_visual_servo.launch
 ```
 1: visual servo //ビジュアルサーボを実行する
 2: move   //ロボットアームをxyz方向に少しずつ動かす
-3: preempted　　//ビジュアルを途中で中止する
+3: preempted　　//ビジュアルサーボを途中で中止する
 4: capture     //ビジュアルサーボの教師画像を保存する
 5: register home position　　//ホームポジションを新たに登録する
 6: return home position　  //ホームポジションに戻る
