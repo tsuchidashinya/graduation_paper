@@ -87,5 +87,6 @@ roslaunch visual_servo_tsuchida client_visual_servo.launch
 6: return home position　  //ホームポジションに戻る
 q: quit　　 //プログラムを終了する
 ```
-
+##### アームを少しずつ動かし、目的の姿勢で止めて教師画像を得る
+<img href="https://github.com/tsuchidashinya/graduation_paper/blob/main/depends_package/VIDEO/output_jog.gif"></img>
 
