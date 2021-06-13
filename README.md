@@ -90,3 +90,6 @@ q: quit　　 //プログラムを終了する
 ##### アームを少しずつ動かし、目的の姿勢で止めて教師画像を得る
 <img src="https://github.com/tsuchidashinya/graduation_paper/blob/main/depends_package/VIDEO/output_jog.gif"></img>
 
+##### ビジュアルサーボを実行する
+https://github.com/tsuchidashinya/graduation_paper/blob/main/depends_package/VIDEO/output_visual.gif"></img>
+
