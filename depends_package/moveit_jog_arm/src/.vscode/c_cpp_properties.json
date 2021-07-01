@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/tsuchida/ros_workspace/ur_ws/devel/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+                "/home/tsuchida/ros_workspace/nishida_ws/src/rosbook_pkgs/chapter8/cloud_excercise/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/Universal_Robots_ROS_Driver/controller_stopper/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/geometric_shapes/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/moveit_jog_arm/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_ros/benchmarks/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_ros/move_group/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_ros/robot_interaction/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_ros/moveit_servo/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_setup_assistant/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit_visual_tools/include/**",
+                "/home/tsuchida/ros_workspace/move_ws/src/opencv_ros/include/**",
+                "/home/tsuchida/ros_workspace/nishida_ws/src/rosbook_pkgs/chapter11/pluginlib_arrayutil/include/**",
+                "/home/tsuchida/ros_workspace/nishida_ws/src/rosbook_pkgs/chapter11/pluginlib_arrayutil_client/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/robotiq/robotiq_2f_gripper_action_server/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/robotiq/robotiq_2f_gripper_control/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/robotiq/robotiq_3f_gripper_articulated_gazebo_plugins/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/robotiq/robotiq_3f_gripper_control/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/robotiq/robotiq_ethercat/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/robotiq/robotiq_ft_sensor/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/rviz_visual_tools/include/**",
+                "/home/tsuchida/ros_workspace/catkin_ws/src/moveit/moveit_planners/sbpl/core/sbpl_interface/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/Universal_Robots_ROS_Driver/ur_calibration/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/universal_robot/ur_kinematics/include/**",
+                "/home/tsuchida/ros_workspace/ur_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/include/**",
+                "/home/tsuchida/ros_workspace/move_ws/src/visual_servo/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

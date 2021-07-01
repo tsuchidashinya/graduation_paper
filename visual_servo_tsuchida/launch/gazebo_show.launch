@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+  
+    <arg name="model_3" default="$(find visual_servo_tsuchida)/urdf/model_gazbo.xacro"/>
+   
+    
+    <param name="robot_description_3" command="$(find xacro)/xacro $(arg model_3)"/>
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+        <arg name="gui" default="true"/>
+        <arg name="world_name" default=""/>
+    </include>
+   
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_gazebo_model_2" 
+    args="-param robot_description_3 -urdf -model model_gazebo -x 0.25" output="screen" respawn="false"/>
+   
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher_1">
+        <param name="publish_frequency" type="double" value="50.0" />
+        <param name="tf_prefix" type="string" value="" />
+        <remap from="robot_description" to="robot_description_3"/>
+    </node>
+  
+</launch>

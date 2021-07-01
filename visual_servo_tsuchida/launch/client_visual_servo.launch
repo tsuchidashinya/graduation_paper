@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="client_server_name" default="shinya_action"/>
+    <arg name="moveit_step" default="0.03"/>
+    <arg name="linear_error" default="0.01"/>
+    <arg name="angular_error" default="0.05"/>
+    <arg name="image_topic_name_client" default="camera/image_raw"/>
+    <arg name="mask_image_client" default="$(find visual_servo_tsuchida)/image/mask.jpg"/>
+    <arg name="moveit_client" default="manipulator"/>
+    <arg name="mask_file" default="$(find visual_servo_tsuchida)/result_file/mask_file.txt"/>
+    <arg name="end_pose_file" default="$(find visual_servo_tsuchida)/result_file/end_pose_file.txt"/>
+    <arg name="error_pose_file" default="$(find visual_servo_tsuchida)/result_file/error_pose_file.txt"/>
+    <arg name="error" default="0.005"/>
+    <node pkg="visual_servo_tsuchida" type="client_main_1" name="client_main_1" output="screen">
+        <param name="client_server_name" value="$(arg client_server_name)"/>
+        <param name="moveit_step" value="$(arg moveit_step)"/>
+        <param name="linear_error" value="$(arg linear_error"/>
+        <param name="angular_error" value="$(arg angular_error"/>
+        <param name="error" value="$(arg error)"/>
+        <param name="image_topic_name_client" value="$(arg image_topic_name_client)"/>
+        <param name="mask_image_client" value="$(arg mask_image_client)"/>
+        <param name="moveit_client" value="$(arg moveit_client)"/>
+        <param name="mask_file" value="$(arg mask_file)"/>
+        <param name="end_pose_file" value="$(arg end_pose_file)"/>
+        <param name="error_pose_file" value="$(arg error_pose_file)"/>
+    </node>
+</launch>

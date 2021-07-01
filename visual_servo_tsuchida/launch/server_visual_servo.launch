@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="jog_topic_name" default="/jog_server/delta_jog_cmds"/>
+    <arg name="image_topic_name" default="camera/image_raw"/>
+    <arg name="camera_info_topic" default="camera/camera_info"/>
+    <arg name="mask_image_path" default="$(find visual_servo_tsuchida)/image/mask.jpg"/>
+    <arg name="server_name" default="shinya_action"/>
+    <arg name="loop_rate" default="10"/>
+    <arg name="moveit_group" default="manipulator"/>
+    <arg name="lamda" default="-0.3"/>
+    <arg name="bai" default="2"/>
+    <arg name="tagSize" default="0.05"/>
+    <arg name="feature_quantity" default="4"/>
+    <arg name="mask_file" default="$(find visual_servo_tsuchida)/result_file/mask_file.txt"/>
+    <arg name="end_pose_file" default="$(find visual_servo_tsuchida)/result_file/end_pose_file.txt"/>
+    <arg name="error_pose_file" default="$(find visual_servo_tsuchida)/result_file/error_pose_file.txt"/>
+    <node pkg="visual_servo_tsuchida" type="server_main" name="server_main" output="screen">
+        <param name="jog_topic_name" value="$(arg jog_topic_name)"/>
+        <param name="image_topic_name" value="$(arg image_topic_name)"/>
+        <param name="camera_info_topic" value="$(arg camera_info_topic)"/>
+        <param name="mask_image_path" value="$(arg mask_image_path)"/>
+        <param name="server_name" value="$(arg server_name)"/>
+        <param name="loop_rate" value="$(arg loop_rate)"/>
+        <param name="moveit_group" value="$(arg moveit_group)"/>
+        <param name="lamda" value="$(arg lamda)"/>
+        <param name="bai" value="$(arg bai)"/>
+        <param name="tagSize" value="$(arg tagSize)"/>
+        <param name="feature_quantity" value="$(arg feature_quantity)"/>
+        <param name="mask_file" value="$(arg mask_file)"/>
+        <param name="end_pose_file" value="$(arg end_pose_file)"/>
+        <param name="error_pose_file" value="$(arg error_pose_file)"/>
+    </node>
+</launch>
