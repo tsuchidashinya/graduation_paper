@@ -94,3 +94,7 @@ q: quit　　 //プログラムを終了する
 ##### ビジュアルサーボを実行する
 <img src="https://github.com/tsuchidashinya/graduation_paper/blob/main/depends_package/VIDEO/output_visual.gif"></img>
 
+##### 実機での実行
+<img src="https://github.com/tsuchidashinya/graduation_paper/blob/main/depends_package/VIDEO/kankse.gif"></img>
+<img src="https://github.com/tsuchidashinya/graduation_paper/blob/main/depends_package/VIDEO/gamen.gif"></img>
+
